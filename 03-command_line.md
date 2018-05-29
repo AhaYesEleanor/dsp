@@ -29,7 +29,7 @@ deleting a directory | rmdir <dirname /s
 creating a file using `touch` command | touch <filename>
 deleting a file | rm <filename>
 renaming a file | mv <oldname> <newname>
-listing hidden files | ls -ld .?* 
+listing hidden files | ls -ld .?\* 
 copying a file from one directory to another | cp <filename> <dirname>
 modify file permissions | chmod <755,+x,+r,+w>
 view file contents | cat <filename>
