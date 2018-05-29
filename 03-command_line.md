@@ -8,9 +8,10 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 ### Q1.  Cheat Sheet of Commands  
 
-Here's a list of items with which you should be familiar: 
+Here's a list of items with which you should be familiar:
+
 Action | Command
----|---
+-------|---------
 show current working directory path | pwd
 creating a directory | mkdir <dirname>
 deleting a directory | rmdir <dirname /s
