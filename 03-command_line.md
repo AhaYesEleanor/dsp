@@ -74,7 +74,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' is a command that takes in Standard Input (which results from another function) and executes a command using each element of the Standard Input. The following example shows how to find and delete all '.txt' extension files in the directory /foo:
+> > 'xargs' is a command that takes in Standard Input (which results from another function) and executes a command using each element of the Standard Input. The following example shows how to find and delete all '.txt' extension files in the directory /foo:  
 find ./foo -type f -name "\*.txt" | xargs rm
 
  
