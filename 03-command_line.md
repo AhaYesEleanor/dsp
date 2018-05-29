@@ -48,12 +48,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls` lists the files in a directory (not hidden files)**
-`ls -a`  lists all files in a directory, including hidden files**
-`ls -l`  lists files in long format (permissions, etc are shown)**
-`ls -lh` lists files in long format with a readable file size**
-`ls -lah` lists all files in long format with a readable file size, including hidden files**
-`ls -t`   lists files sorted by time and date**
+> > `ls` lists the files in a directory (not hidden files)  
+`ls -a`  lists all files in a directory, including hidden files  
+`ls -l`  lists files in long format (permissions, etc are shown)  
+`ls -lh` lists files in long format with a readable file size  
+`ls -lah` lists all files in long format with a readable file size, including hidden files  
+`ls -t`   lists files sorted by time and date  
 `ls -Glp` lists files in long format, ommitting group designations (owner names), and appending a slash '/' to directories
 ---
 
@@ -61,11 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 'ls -R' lists subdirectories as well**
-'ls -u' sorts files by access time**
-'ls -t' sorts files by newest (based on timestamp)**
-'ls -x' displays files as rows across the screen**
-'ls -d' displays only directories**
+> > 'ls -R' lists subdirectories as well  
+'ls -u' sorts files by access time  
+'ls -t' sorts files by newest (based on timestamp)  
+'ls -x' displays files as rows across the screen  
+'ls -d' displays only directories  
 
 
 ---
@@ -74,7 +74,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 'xargs' is a command that takes in Standard Input (which results from another function) and executes a command using each element of the Standard Input. The following example shows how to find and delete all '.txt' extension files in the directory /foo:**
+> > 'xargs' is a command that takes in Standard Input (which results from another function) and executes a command using each element of the Standard Input. The following example shows how to find and delete all '.txt' extension files in the directory /foo:
 find ./foo -type f -name "\*.txt" | xargs rm
 
  
